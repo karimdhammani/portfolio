@@ -1521,7 +1521,7 @@ p {
   }
   .nav__list {
     display: flex;
-    column-gap: 2rem;
+    gap: 2rem;
   }
 
   .home__social-icon {
