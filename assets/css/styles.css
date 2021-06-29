@@ -1768,6 +1768,12 @@ flex: 70%;
   .footer__container {
     padding: 0;
   }
+  
+   .nav__list {
+    display: flex;
+    column-gap: 2rem;
+  }
+  
   .home__blob {
     width: 320px;
   }
