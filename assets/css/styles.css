@@ -1523,6 +1523,10 @@ p {
     display: flex;
     gap: 2rem;
   }
+  
+   .nav__link {
+  padding-right: 2rem;
+  }
 
   .home__social-icon {
     font-size: 1.7rem;
@@ -1772,6 +1776,10 @@ flex: 70%;
    .nav__list {
     display: flex;
     gap: 2rem;
+  }
+  
+  .nav__link {
+  padding-right: 2rem;
   }
   
   .home__blob {
