@@ -1521,7 +1521,7 @@ p {
   }
   .nav__list {
     display: flex;
-    gap: 2rem;
+    column-gap: 2rem;
   }
   
   
@@ -1781,9 +1781,7 @@ flex: 70%;
     gap: 2rem;
   }
   
-  .nav__link {
-  padding-right: 1rem;
-  }
+ 
   
   .home__blob {
     width: 320px;
