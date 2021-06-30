@@ -1524,7 +1524,9 @@ p {
     column-gap: 2rem !important;
   }
   
-  
+   .nav__link {
+  padding-right: 0.5rem;
+  }
 
   .home__social-icon {
     font-size: 1.7rem;
@@ -1781,7 +1783,9 @@ flex: 70%;
     gap: 2rem;
   }
   
- 
+  .nav__link {
+  padding-right: 1.5rem !important;
+  }
   
   .home__blob {
     width: 320px;
