@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 /*==================== VARIABLES CSS ====================*/
 :root {
-  --header-height: 4rem;
+  --header-height: 5rem;
   /*========== Colors ==========*/
   /* Change favorite color */
   --hue-color: 220;
@@ -79,7 +79,7 @@ body.dark-theme {
 }
 
 .change-theme {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   color: var(--title-color);
   margin-right: var(--mb-1);
   cursor: pointer;
@@ -197,7 +197,7 @@ p {
 }
 
 .nav__toggle {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   cursor: pointer;
 }
 
