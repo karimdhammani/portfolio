@@ -532,11 +532,11 @@ p {
 }
 
 .portfolio-pills-div {
-  
+  position: absolute;
   margin-bottom: 1rem;
   margin-top: 1rem;
   margin-bottom: 1.5rem;
-  
+  top: 0.5rem;
 }
 
 .portfolio__data {
