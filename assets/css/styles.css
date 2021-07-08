@@ -76,6 +76,7 @@ body.dark-theme {
 .nav__btns {
   display: flex;
   align-items: center;
+  gap: 0.4rem;
 }
 
 .change-theme {
@@ -212,23 +213,23 @@ p {
     left: 0;
     width: 100%;
     background-color: var(--body-color);
-    padding: 2rem 1.5rem 4rem;
-    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+    padding: 3rem 1.5rem 5rem;
+    box-shadow: -1px -1px 8px rgba(0, 0, 0, 0.25);
     border-radius: 1.5rem 1.5rem 0 0;
     transition: .3s;
   }
 }
 
 .nav__list {
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
 }
 
 .nav__link {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: var(--small-font-size);
+  font-size: var(--normal-font-size);
   color: var(--title-color);
   font-weight: var(--font-medium);
 }
@@ -238,14 +239,15 @@ p {
 }
 
 .nav__icon {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .nav__close {
   position: absolute;
   right: 1.3rem;
-  bottom: .5rem;
-  font-size: 1.5rem;
+  bottom: 1.3rem;
+  font-size: 2rem;
   cursor: pointer;
   color: var(--first-color);
 }
@@ -1190,7 +1192,7 @@ p {
 
 /* Show scroll */
 .show-scroll {
-  bottom: 5rem;
+  bottom: 6rem;
 }
 
 /*========== SCROLL BAR ==========*/
@@ -1400,7 +1402,7 @@ p {
     margin-right: var(--mb-1);
   }
   .nav__menu {
-    padding: 2rem .25rem 4rem;
+    padding: 2rem .25rem 5rem;
   }
   .nav__list {
     column-gap: 0;
