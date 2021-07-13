@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap");
 /*==================== VARIABLES CSS ====================*/
 :root {
-  --header-height: 5rem;
+  --header-height: 4rem;
   /*========== Colors ==========*/
   /* Change favorite color */
   --hue-color: 220;
@@ -246,7 +246,7 @@ p {
 .nav__close {
   position: absolute;
   right: 1.3rem;
-  bottom: 1.3rem;
+  bottom: 1rem;
   font-size: 2rem;
   cursor: pointer;
   color: var(--first-color);
