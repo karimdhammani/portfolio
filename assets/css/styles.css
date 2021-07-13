@@ -1558,6 +1558,11 @@ p {
   .home__scroll-button {
     margin-left: 3rem;
   }
+
+  .about-page {
+    padding-top: 5rem;
+  }
+  
   .about__container {
     display: flex;
     flex-direction: row;
@@ -1592,6 +1597,12 @@ padding-left: var(--mb-2-5);
   .qualification__sections {
     grid-template-columns: .5fr;
   }
+
+  .services {
+    padding: 4rem 2rem 8rem !important;
+
+  }
+
   .services__container {
     grid-template-columns: repeat(3, 218px);
     justify-content: center;
